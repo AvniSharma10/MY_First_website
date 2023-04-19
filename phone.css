@@ -1,0 +1,62 @@
+body{
+    
+    width: 300%;
+}
+#logo img{
+height: 25mm;
+}
+/* ***************************************NAVIGATION******************************* */
+#navbar{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0px 2px;
+    font-size: 2rem;
+}
+/* ******************************HOME******************************* */
+#home{
+    height: 1211px;
+    padding: 6px 0px;
+    
+}
+#home .p{
+    font-size: 25mm;
+}
+#home p{
+    font-size: 40px;
+}
+
+#home::before{
+    height: 140%;
+    width: 300%;
+}
+/* SERVICES****** */
+#services{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    padding: 127px 36px;
+
+    font-size: 2rem;
+}
+/* *****************************CLIENTS************************************** */
+#client{
+   flex-wrap: wrap;
+
+}
+#client::before{
+    width: 100%;
+}
+/* *********************************CONTACTS************************ */
+#cbox .f label{
+    font-size: 5rem;
+}
+#contact{
+    height: 450px;
+}
